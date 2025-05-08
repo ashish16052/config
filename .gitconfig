@@ -1,0 +1,7 @@
+[user]
+	email = ashishmohite16052@gmail.com
+	name = ashish16052
+[alias]
+	count-lines = "! git log --author=\"$1\" --after=\"\" --pretty=tformat: --numstat | awk '{ add += $1; } END { printf \"%s\", add }' #"
+[core]
+	editor = vim
