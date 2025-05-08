@@ -1,0 +1,16 @@
+== Vim Shortcuts ==
+u       -> Undo
+Ctrl+r  -> Redo
+:Lex    -> Left Explorer
+/       -> Search
+v       -> Select
+y       -> Copy
+p       -> Paste
+x       -> remove
+r       -> replace
+d       -> Delete
+G       -> Go To Line
+w/b     -> travel words
+0/$     -> travel start/end of line
+<c-i/o> -> travel back/forth
+<c-w> w -> toggle between panes
