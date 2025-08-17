@@ -1,6 +1,7 @@
-set number	" show line number
-set hlsearch	" highlight search
+set number        " show line number
+set hlsearch	  " highlight search
 
-" ctr-b keybinding for file explorer sidebar
-inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
-nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
+set autoindent    " add indentation when moving to next line
+
+set expandtab     " use space for indenting, even when you press 'Tab'
+set tabstop=4     " 4 spaces for line indent
