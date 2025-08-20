@@ -30,6 +30,9 @@ call plug#begin("~/.vim/plugged")
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
 
+  " copilot
+  Plug 'github/copilot.vim'
+
 call plug#end()
 
 
