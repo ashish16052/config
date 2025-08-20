@@ -15,11 +15,13 @@ set clipboard=unnamedplus   " using system clipboard
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
 
+
 " Telescope key mappings
 let mapleader=" "
 nnoremap <leader>sf <cmd>Telescope find_files<CR>
 nnoremap <leader>sg <cmd>Telescope live_grep<CR>
 nnoremap <leader>s. <cmd>Telescope oldfiles<CR>
+
 
 " Plugin Section
 call plug#begin("~/.vim/plugged")
@@ -29,3 +31,14 @@ call plug#begin("~/.vim/plugged")
   Plug 'nvim-telescope/telescope.nvim'
 
 call plug#end()
+
+
+lua << EOF
+-- Telescope configuration
+require('telescope').setup{
+  defaults = {
+    path_display = { "truncate" }
+  }
+}
+EOF
+
