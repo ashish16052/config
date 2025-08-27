@@ -1,8 +1,8 @@
 == Vim Shortcuts ==
+.       -> repeat last action
 u       -> Undo
 Ctrl+r  -> Redo
 :Lex    -> Left Explorer
-/       -> Search
 v       -> Select
 y       -> Copy
 p       -> Paste
@@ -10,7 +10,13 @@ x       -> remove
 r       -> replace
 d       -> Delete
 G       -> Go To Line
+c       -> Change
 w/b     -> travel words
 0/$     -> travel start/end of line
+/       -> Search
+shft *  -> Search under the cursor
+%s/_/_  -> Search and replace
 <c-i/o> -> travel back/forth
 <c-w> w -> toggle between panes
+<c-Q>   -> Multiselect
+:f      -> File Path
