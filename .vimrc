@@ -34,6 +34,7 @@ call plug#begin("~/.vim/plugged")
 call plug#end()
 
 " FZF key mappings
+nnoremap <leader>sd :Files %:p:h<CR>
 nnoremap <leader>sf :Files<CR>
 nnoremap <leader>sg :Rg<CR>
-nnoremap <leader>s. :History<CR>
+nnoremap <leader>sh :History<CR>
