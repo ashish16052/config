@@ -25,14 +25,11 @@ let mapleader=" "
 
 " Plugin Section
 call plug#begin("~/.vim/plugged")
-
   " Fuzzy finder (fzf instead of Telescope)
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
-
   " Copilot (works in Vim=>9.0)
   Plug 'github/copilot.vim'
-
 call plug#end()
 
 " FZF key mappings
@@ -40,3 +37,6 @@ nnoremap <leader>sd :Files %:p:h<CR>
 nnoremap <leader>sf :Files<CR>
 nnoremap <leader>sg :Rg<CR>
 nnoremap <leader>sh :History<CR>
+
+" Git blame for current line
+nnoremap <leader>gb :echo system('git blame -L ' . line('.') . ',+1 ' . shellescape(expand('%')))<CR>
