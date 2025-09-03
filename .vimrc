@@ -24,14 +24,11 @@ let mapleader=" "
 
 " Plugin Section
 call plug#begin("~/.vim/plugged")
-
   " Fuzzy finder (fzf instead of Telescope)
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
-
   " Copilot (works in Vim=>9.0)
   Plug 'github/copilot.vim'
-
 call plug#end()
 
 " FZF key mappings
