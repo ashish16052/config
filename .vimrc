@@ -6,7 +6,6 @@ set incsearch               " incremental search
 set expandtab               " converts tabs to white space
 set shiftwidth=4            " width for autoindents
 set autoindent              " indent a new line the same amount as the line just typed
-set number                  " add line numbers
 set wildmode=longest,list   " get bash-like tab completions
 filetype plugin on
 filetype plugin indent on   " allow auto-indenting depending on file type
@@ -25,11 +24,14 @@ let mapleader=" "
 
 " Plugin Section
 call plug#begin("~/.vim/plugged")
+
   " Fuzzy finder (fzf instead of Telescope)
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
+
   " Copilot (works in Vim=>9.0)
   Plug 'github/copilot.vim'
+
 call plug#end()
 
 " FZF key mappings
