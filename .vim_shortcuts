@@ -20,3 +20,5 @@ shft *  -> Search under the cursor
 <c-w> w -> toggle between panes
 <c-Q>   -> Multiselect
 :f      -> File Path
+zm/M    -> Close Fold
+zr/R    -> Open Fold
