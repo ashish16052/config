@@ -39,3 +39,15 @@ nnoremap <leader>sh :History<CR>
 
 " Git blame for current line
 nnoremap <leader>gb :echo system('git blame -L ' . line('.') . ',+1 ' . shellescape(expand('%')))<CR>
+
+" Disable Arrow keys in Normal mode
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" Disable Arrow keys in Insert mode
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
