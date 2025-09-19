@@ -1,3 +1,5 @@
+set number                  " show line number
+set relativenumber          " show relative line number
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
 set ignorecase              " case insensitive 
