@@ -15,8 +15,6 @@ syntax on                   " syntax highlighting
 set clipboard=unnamedplus   " using system clipboard
 set ttyfast                 " Speed up scrolling in Vim
 set tabstop=4               " 4 spaces for line indent
-set foldmethod=indent       " fold based on indent level
-set foldlevel=99            " Open all folds by default
 
 " Leader key
 let mapleader=" "
