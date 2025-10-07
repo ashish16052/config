@@ -18,9 +18,6 @@ set tabstop=4               " 4 spaces for line indent
 set foldmethod=indent       " fold based on indent level
 set foldlevel=99            " Open all folds by default
 
-let &t_SI = "\e[5 q"  " blinking cursor on start insert
-let &t_EI = "\e[2 q"  " steady bar on end insert
-
 " Leader key
 let mapleader=" "
 
