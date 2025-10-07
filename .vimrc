@@ -39,9 +39,6 @@ nnoremap <leader>sf :Files<CR>
 nnoremap <leader>sg :Rg<CR>
 nnoremap <leader>sh :History<CR>
 
-" Git blame for current line
-nnoremap <leader>gb :echo system('git blame -L ' . line('.') . ',+1 ' . shellescape(expand('%')))<CR>
-
 " Disable Arrow keys in Normal mode
 map <up> <nop>
 map <down> <nop>
