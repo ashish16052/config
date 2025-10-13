@@ -8,7 +8,6 @@ set incsearch               " incremental search
 set expandtab               " converts tabs to white space
 set shiftwidth=4            " width for autoindents
 set autoindent              " indent a new line the same amount as the line just typed
-set wildmode=longest,list   " get bash-like tab completions
 filetype plugin on
 filetype plugin indent on   " allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
