@@ -15,6 +15,7 @@ syntax on                   " syntax highlighting
 set clipboard=unnamedplus   " using system clipboard
 set ttyfast                 " Speed up scrolling in Vim
 set tabstop=4               " 4 spaces for line indent
+set noswapfile              " disable swap file
 
 " Leader key
 let mapleader=" "
