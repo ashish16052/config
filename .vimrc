@@ -1,4 +1,3 @@
-set nocompatible                                  " disable compatibility to old-time vi
 set number relativenumber                         " show relative line number
 set showmatch ignorecase hlsearch incsearch       " search settings
 set expandtab shiftwidth=4 tabstop=4 autoindent   " tabs & indentation
