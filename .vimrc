@@ -7,6 +7,8 @@ set noswapfile                                    " disable swap file
 syntax on                                         " syntax highlighting
 filetype plugin indent on                         " allow auto-indenting depending on file type
 
+let $FZF_DEFAULT_OPTS='--delimiter=/ --with-nth=-3..'
+
 " Plugin Section
 call plug#begin("~/.vim/plugged")
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fuzzy finder (fzf)
