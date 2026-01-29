@@ -18,7 +18,14 @@ git() {
     file=$(command git diff --name-only | sed -n "${2}p")
     [ -z "$file" ] && echo "No such file" && return 1
     command git diff "$file"
+
+  elif [[ "$1" == "add" && "$2" =~ ^[0-9]+$ ]]; then
+    file=$(command git diff --name-only | sed -n "${2}p")
+    [ -z "$file" ] && echo "No such file" && return 1
+    command git add "$file"
+
   else
     command git "$@"
   fi
 }
+
