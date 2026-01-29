@@ -21,6 +21,11 @@ git() {
     [ -z "$file" ] && echo "No such file" && return 1
     command git add "$file"
 
+  elif [[ "$1" == "restore" && "$2" =~ ^[0-9]+$ ]]; then
+    file=$(command git diff --name-only | sed -n "${2}p")
+    [ -z "$file" ] && echo "No such file" && return 1
+    command git restore "$file"
+
   else
     command git "$@"
   fi
