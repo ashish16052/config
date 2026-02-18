@@ -13,12 +13,7 @@ let mapleader=" "
 nnoremap <leader>sd :Files %:p:h<CR>
 nnoremap <leader>sh :History<CR>
 
-" Disable Arrow keys in Normal/Insert mode
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
+for k in ['Up','Down','Left','Right']
+  execute 'nnoremap <'..k..'> <Nop>'
+  execute 'inoremap <'..k..'> <Nop>'
+endfor
