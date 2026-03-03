@@ -1,6 +1,7 @@
 set number relativenumber showmatch ignorecase hlsearch incsearch
 set expandtab shiftwidth=4 tabstop=4 autoindent
 set clipboard=unnamedplus noswapfile
+set foldmethod=indent foldlevel=99 foldenable
 filetype plugin indent on
 let $FZF_DEFAULT_OPTS='--delimiter=/ --with-nth=-3..'
 call plug#begin("~/.vim/plugged")
