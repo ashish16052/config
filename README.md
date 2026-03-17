@@ -67,6 +67,7 @@ Create ‘**Developer’ **folder in home directory - should create a special fo
 # AI tools
 1. Github Copilot with vim
 2. Opencode for terminal
+3. https://github.com/msitarzewski/agency-agents - for agent templates
 
 ---
 
