@@ -31,3 +31,6 @@ git() {
   fi
 }
 
+# trim paths to last 2 dirs
+PROMPT_DIRTRIM=2
+PS1='\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
