@@ -31,6 +31,14 @@ bind -f ~/.inputrc
 ```
 ---
 
+Zed
+
+- supports zed
+- support inline assist/agent chat
+- global search
+
+---
+
 # Mac setup
 
 ## Brew Setup:
