@@ -1,0 +1,105 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "bottom_dock_layout": "contained",
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "outline_panel": {
+    "git_status": false,
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "git": {
+    "disable_git": false
+  },
+  "icon_theme": "Zed (Default)",
+  "preview_tabs": {
+    "enable_preview_file_from_code_navigation": false,
+    "enable_preview_from_multibuffer": false,
+    "enable_preview_from_project_panel": false,
+    "enabled": false
+  },
+  "tabs": {
+    "close_position": "right"
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false,
+    "show": true
+  },
+  "title_bar": {
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_sign_in": false,
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_worktree_name": false,
+    "show_branch_name": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "terminal": {
+    "button": false
+  },
+  "status_bar": {
+    "active_encoding_button": "disabled",
+    "cursor_position_button": false,
+    "active_language_button": false
+  },
+  "vim": {
+    "toggle_relative_line_numbers": true,
+    "default_mode": "normal"
+  },
+  "toolbar": {
+    "agent_review": false,
+    "selections_menu": false,
+    "quick_actions": false,
+    "breadcrumbs": false
+  },
+  "project_panel": {
+    "git_status_indicator": true,
+    "button": false,
+    "entry_spacing": "standard",
+    "hide_gitignore": true,
+    "dock": "left"
+  },
+  "base_keymap": "VSCode",
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "light",
+    "light": "One Light",
+    "dark": "Ayu Dark",
+  },
+}
