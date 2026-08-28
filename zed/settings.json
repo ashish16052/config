@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "scrollbar": {
+    "axes": {
+      "horizontal": false
+    },
+    "show": "auto"
+  },
   "bottom_dock_layout": "contained",
   "agent": {
     "button": false,
@@ -60,6 +66,9 @@
     "button": false
   },
   "terminal": {
+    "scrollbar": {
+      "show": "auto"
+    },
     "button": false
   },
   "status_bar": {
