@@ -8,7 +8,7 @@ alias app="CORRIDOR_ENV=development venv/bin/corridor-app"
 alias worker="CORRIDOR_ENV=development venv/bin/corridor-worker"
 
 api() {
-  nx run "corridor-api:$1" "${@2}"
+  nx run "corridor-api:$1" "${@:2}"
 }
 ui() {
   nx run "corridor-ui:$1" "${@:2}"
